@@ -7,7 +7,9 @@ body{ font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; c
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
 a.btn { font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; 
-		padding: 4px 15px; }
+		padding: 4px 15px; transition: background-color .5s; }
+
+a.btn:hover{background-color: rgba(0,0,0, .3);}
 
 /* Text */
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
