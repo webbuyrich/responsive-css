@@ -38,3 +38,18 @@ header a.logo span{ display:none; }
 
 header div.hero{ position: absolute; width: 42%; top:130px; left:55%; }
 header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color:#fff;}
+
+/* SECTION ALL */
+section { padding: 0 30px; }
+
+/* SECTION MAIN */
+section.main { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.main aside { width:33%; float:left; text-align: center; }
+
+section.main .content { 
+	margin:15px; background: no-repeat center top; 
+	background-size: 75px 75px; padding-top: 85px;
+}
+
+section.main aside h3 a { color: #000; text-decoration:none; border-bottom: 1px solid transparent; transition: all ease-in-out 1s;}
+section.main aside h3 a:hover { border-color: red;}
