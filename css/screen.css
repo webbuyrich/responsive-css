@@ -7,9 +7,9 @@ body{ font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; c
 #page { max-width: 1200px; margin: 0 auto; position: relative; }
 
 a.btn { font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; 
-		padding: 4px 15px; transition: background-color .5s; }
+		padding: 4px 15px; transition: all ease-in-out .7s;}
 
-a.btn:hover{background-color: rgba(0,0,0, .3);}
+a.btn:hover{background-color: #fff; color:#000;}
 
 /* Text */
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
@@ -58,3 +58,9 @@ section.main aside h3 a:hover { border-color: red;}
 section.main aside .content.trending { background-image: url(../images/icon_star.svg); }
 section.main aside .content.find-it { background-image: url(../images/icon_marker.svg); }
 section.main aside .content.tools { background-image: url(../images/icon_gear.svg); }
+
+/* SECTION ATMOSPHERE */
+section.atmosphere { background-color: #cc6633; padding-top: 30px; padding-bottom: 30px; color: #fff;  }
+section.atmosphere article { padding: 0 20px 0 515px; background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+min-height: 220px;
+}
